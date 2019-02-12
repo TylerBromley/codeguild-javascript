@@ -2,11 +2,13 @@ player_cards1 = prompt("What is your first card?");
 player_cards2 = prompt("What is your second card?");
 player_cards3 = prompt("What is your third card?");
 cards_dict = {
-    "A": 1, "2": 2, "3": 3, "4": 4,
-    "5": 5, "6": 6, "7": 7, "8": 8,
-    "9": 9, "10": 10, "J": 10, "Q": 10, "K": 10,
+    "A": 1, "2": 2, "3": 3,
+    "4": 4, "5": 5, "6": 6, 
+    "7": 7, "8": 8, "9": 9,
+    "10": 10, "J": 10, "Q": 10,
+    "K": 10,
 }
-cards_list = [];
+let cards_list = [];
 function advise(cards_list, cards_dict) {
     let total = 0;
     let response;
@@ -24,9 +26,8 @@ function advise(cards_list, cards_dict) {
     }
     alert(response);
 }
+
 cards_list.push(player_cards1);
 cards_list.push(player_cards2);
 cards_list.push(player_cards3);
-
 advise(cards_list, cards_dict);
-

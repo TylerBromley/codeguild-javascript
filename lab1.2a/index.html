@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>UNIT CONVERTER</h1>
+    </header>
+    <main>
+        <h3>How Many</h3>
+        <input type="text" name="numIn" id="numIn">
+        <div>
+            <select id="unitsIn">
+                <option id="ft" value="1">Feet</option>
+                <option id="mi" value="2">Miles</option>
+                <option id="km" value="3">KM</option>
+                <option id="meter" value="4">Meters</option>
+            </select>
+        </div>
+        <h3>Change to:</h3>
+        <select id="unitsOut">
+            <option id="ft" value="1">Feet</option>
+            <option id="mi" value="2">Miles</option>
+            <option id="km" value="3">KM</option>
+            <option id="meter" value="4">Meters</option>
+        </select>
+        <div>
+            <h2 id="output"></h2>
+        </div>
+        <button id="convert">Convert</button>  
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

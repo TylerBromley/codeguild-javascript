@@ -1,0 +1,57 @@
+body {
+    font-family: "roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: #FFFFFF;
+    font-size: 3em;
+    padding-top: 20px;
+    margin-bottom: .4em;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    margin-top: 15px;
+    color: white;
+    text-shadow: 1px 0px 1px black;
+}
+
+button {
+    width: 90px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: gray;
+}
+button:focus {
+    outline:0;
+    box-shadow: 0 0 0 2pt gray;
+}
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+}
+@media (min-width: 1000px) {
+    button {
+        width: 160px;
+        height: 80px;
+    }
+}
