@@ -26,38 +26,6 @@ function getRandomPage() {
     console.log(pageArray[num]);
     return pageArray[num];
 }
-// function timedText() {
-//         setTimeout(myTimeout0, 1000);
-//         setTimeout(myTimeout1, 2000);
-//         setTimeout(myTimeout2, 3000);
-//         setTimeout(myTimeout3, 4000);
-//         setTimeout(myTimeout4, 5000);
-//         setTimeout(myTimeout5, 6000);
-//         setTimeout(myTimeout6, 7000);
-// }
-// function myTimeout0() {
-//     document.getElementById('countdown').innerHTML = "6";
-// }
-// function myTimeout1() {
-//     document.getElementById('countdown').innerHTML = "5";
-// }
-// function myTimeout2() {
-//     document.getElementById('countdown').innerHTML = "4";
-// }
-// function myTimeout3() {
-//     document.getElementById('countdown').innerHTML = "3";
-// }
-// function myTimeout4() {
-//     document.getElementById('countdown').innerHTML = "2";
-// }
-// function myTimeout5() {
-//     document.getElementById('countdown').innerHTML = "1";
-// }
-// function myTimeout6() {
-//     document.getElementById('countdown').innerHTML = "0";
-//     location.replace(getRandomPage());  
-// }
 
-// window.onload = timedText();
 
 
