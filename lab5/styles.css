@@ -1,0 +1,24 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 1em;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#countdown {
+    font-size: 23em;
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 500px) {
+    h1 {
+        font-size: 2em;
+    }
+}
